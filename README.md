@@ -2,8 +2,8 @@
 
 Crypto-taxes es una herramienta para ayudarte a calcular los impuestos que debes pagar por tus operaciones de criptomonedas en la declaración de la Renta.
 
-[!IMPORTANT]
-**DISCLAIMER**: Este programa se ofrece **TAL Y COMO ESTÁ**, no se ofrece ningún tipo de garantía ni responsabilidad.
+> [!IMPORTANT]
+> **DISCLAIMER**: Este programa se ofrece **TAL Y COMO ESTÁ**, no se ofrece ningún tipo de garantía ni responsabilidad.
 
 # Limitaciones
 
@@ -24,8 +24,8 @@ Es necesario ejecutar el programa y pasarle como único argumento la ruta del CS
 - <original>-taxes.csv: Parecido al anterior pero contiene más información de las operaciones y no está redondeado.
 - <original>-calc.csv: Puedes ignorarlo. Simplemente añade un campo más para indicar cuál es el beneficio de cada operación descontando las tasas pagadas. Las operaciones de compra son siempre negativas por el valor de las tasas. Aparece también un campo de taxes con ciertos valores. Indican la cantidad de operaciones de impuestos que genera cada una separadas por | (puede haber más de una).
 
-[!WARNING]
-Es necesario que aparezcan todas las operaciones desde una situación inicial "cero". Es decir, desde que abriste la cuenta, desde que vendiste todas tus monedas o, al menos, una situación en la que tuvieses exactamente las mismas monedas que al fin del periodo que quieras calcular. Esto es porque las operaciones se calculan en modo FIFO: para relacionar una venta con su/s compra/s es necesario conocer la situación inicial. NO SIRVE contar únicamente desde principio de año si ya tenías monedas compradas, porque el importe de compra debe descontarse del importe de venta.
+> [!WARNING]
+> Es necesario que aparezcan todas las operaciones desde una situación inicial "cero". Es decir, desde que abriste la cuenta, desde que vendiste todas tus monedas o, al menos, una situación en la que tuvieses exactamente las mismas monedas que al fin del periodo que quieras calcular. Esto es porque las operaciones se calculan en modo FIFO: para relacionar una venta con su/s compra/s es necesario conocer la situación inicial. NO SIRVE contar únicamente desde principio de año si ya tenías monedas compradas, porque el importe de compra debe descontarse del importe de venta.
 
 # Cómo funciona
 
