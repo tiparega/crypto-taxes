@@ -20,9 +20,9 @@ Utilizando el jar, sólo hay que ejecutar este comando desde una consola (Linux,
 
 Es necesario ejecutar el programa y pasarle como único argumento la ruta del CSV original. El programa generará otros tres ficheros:
 
-- <original>-simple-taxes.csv: Es el que más te importará, aparece la información justa y necesaria para rellenar la información de la declaración de la Renta. También incluye el campo de beneficios, para que compruebes que los datos en el borrador son correctos (pueden variar un céntimo arriba o abajo por los redondeos).
-- <original>-taxes.csv: Parecido al anterior pero contiene más información de las operaciones y no está redondeado.
-- <original>-calc.csv: Puedes ignorarlo. Simplemente añade un campo más para indicar cuál es el beneficio de cada operación descontando las tasas pagadas. Las operaciones de compra son siempre negativas por el valor de las tasas. Aparece también un campo de taxes con ciertos valores. Indican la cantidad de operaciones de impuestos que genera cada una separadas por | (puede haber más de una).
+- *\<original\>-simple-taxes.csv*: Es el que más te importará, aparece la información justa y necesaria para rellenar la información de la declaración de la Renta. También incluye el campo de beneficios, para que compruebes que los datos en el borrador son correctos (pueden variar un céntimo arriba o abajo por los redondeos).
+- *\<original\>-taxes.csv*: Parecido al anterior pero contiene más información de las operaciones y no está redondeado.
+- *\<original\>-calc.csv*: Puedes ignorarlo. Simplemente añade un campo más para indicar cuál es el beneficio de cada operación descontando las tasas pagadas. Las operaciones de compra son siempre negativas por el valor de las tasas. Aparece también un campo de taxes con ciertos valores. Indican la cantidad de operaciones de impuestos que genera cada una separadas por | (puede haber más de una).
 
 > [!WARNING]
 > Es necesario que aparezcan todas las operaciones desde una situación inicial "cero". Es decir, desde que abriste la cuenta, desde que vendiste todas tus monedas o, al menos, una situación en la que tuvieses exactamente las mismas monedas que al fin del periodo que quieras calcular. Esto es porque las operaciones se calculan en modo FIFO: para relacionar una venta con su/s compra/s es necesario conocer la situación inicial. NO SIRVE contar únicamente desde principio de año si ya tenías monedas compradas, porque el importe de compra debe descontarse del importe de venta.
