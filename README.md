@@ -62,6 +62,6 @@ Aún así, yo me he basado en mis propios datos, es posible que existan otras si
 Espero que esta herramienta pueda ayudar a alguien que quiera pagar los impuestos y no quiera volverse loco para calcular todos los datos que piden.
 
 
-#Other languages
+# Other languages
 
 This is a tool for calculating taxes adapted to Bitstamp and Spanish tax schema. I don't know if this could be used in other countries, but I bet it could at least be useful as cryptocurrency taxes are based in European directives. Feel free to fork to adapt it or propose improvements.
