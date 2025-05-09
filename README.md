@@ -30,11 +30,17 @@ Es necesario ejecutar el programa y pasarle como único argumento la ruta del CS
 # Cómo funciona
 
 1. Primero se lee el CSV original entero para poder operar con él.
+
 2. Se recorre cada operación
-	2.1 Por operación de compra se guardan sus datos por moneda, como si fuera una hucha, en orden.
-	2.2. Para cada operación de venta, se van descontando los importes de la hucha:
-		2.2.1. Si la compra asociada es mayor que la venta, se descuenta de la operación de compra y se genera un registro de impuestos.
-		2.2.2. Si la compra asociada es menor que la de venta, se elimina, se genera un registro de impuestos y se pasa a la siguiente operación de compra, así hasta cubrir el importe de la venta.
+
+	1. Por operación de compra se guardan sus datos por moneda, como si fuera una hucha, en orden.
+	
+	2. Para cada operación de venta, se van descontando los importes de la hucha:
+	
+		1. Si la compra asociada es mayor que la venta, se descuenta de la operación de compra y se genera un registro de impuestos.
+		
+		2. Si la compra asociada es menor que la de venta, se elimina, se genera un registro de impuestos y se pasa a la siguiente operación de compra, así hasta cubrir el importe de la venta.
+		
 3. Finalmente, los registros de impuestos se devuelven en dos ficheros, uno simplificado con los datos a rellenar en las casillas de la renta y otro más completo por si quieres analizar las operaciones.
 
 Todas las operaciones matemáticas se realizan con objetos BigDecimal de Java, que aportan mayor exactitud que los float o double.
