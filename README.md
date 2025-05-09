@@ -11,9 +11,13 @@ El programa actualmente únicamente está preparado para recoger la información
 
 El programa está adaptado a presentar la declaración de la Renta en España. En concreto se ha preparado para la campaña de 2024.
 
+# Prerequisitos
+
+Necesitas tener instalado Java en su versión 18 o superior.
+
 # Uso
 
-TODO
+Descarga el jar que encontrarás en la sección de Releases: [v0.1.0](https://github.com/tiparega/crypto-taxes/releases/download/v0.1.0/cryptotax.jar)
 
 Utilizando el jar, sólo hay que ejecutar este comando desde una consola (Linux, Windows o Mac):
 `java -jar cryptotax.jar <csv_file>`
